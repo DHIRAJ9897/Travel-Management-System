@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Service</title>
+			
+			<link rel="stylesheet" type="text/css" href="bstyle.css">
+			
+	</head>
+	<body>
+	<div class="pbody">
+	 <div class="navbar">
+	
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+			
+			</ul>
+		</div>
+		</div>
+        <center>
+        <h1>My Tour</h1>
+            <hr>
+            <br>
+            <br>
+            
+            <h1>BOOKING</h1>
+            </center>
+		
+		<form action="reservation.php" method="post">
+		
+		
+		<div class="elem-group">
+    <label for="room-selection">Select Your Tour</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="Choose" placeholder="John Doe">Choose Tour</option>
+        <option value="">Manali</option>
+        <option value="connecting">Goa</option>
+        <option value="adjoining">Gateway of India</option>
+        <option value="adjacent">Jaipur</option>
+    </select>
+  </div>	
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name"pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email"  required>
+  </div>
+  <div class="elem-group">
+    <label for="phone">Your Phone</label>
+    <input type="tel" id="phone" name="visitor_phone" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+  </div>
+            
+                 <div class="add">
+    <label for="address">Your ADDRESS</label>
+    <input type="tel" id="address" name="visitor_address" placeholder="" required>
+  </div>
+            
+  <hr>
+            <center>
+
+  <a href="thanku.html"><button type="submit">Book</button></a>
+                </center>
+</form>
+	</body>
+	</div>
+</html> 
