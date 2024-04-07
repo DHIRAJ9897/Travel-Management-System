@@ -1,4 +1,4 @@
 # Travel-Management-System
-This is My First Repository Travel Mangment System
+This is My First Project Travel Mangment System
 <br>
-Aurthor - Dhiraj Bhasvar ( DHADGAON )
+Aurthor - Dhiraj Bhasvar
